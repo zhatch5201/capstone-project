@@ -1,0 +1,49 @@
+body {
+   border: 0px;
+   padding: 0px;
+   margin: 0;
+   height: 100vh;
+   border: 3px solid red;
+   box-sizing:content-box;
+}
+
+div#main {
+   margin: auto;
+   width: 50%;
+   border: 3px solid green;
+   padding: 10px;
+   transform: translateY(50vh);
+}
+
+div#tabLabel {
+   margin: auto;
+   width: 100%;
+   div {
+      border: 1px solid orange;
+      border-radius: 5px 5px ;
+      display: inline-block;
+      width: 32.2%;
+      text-align: center;
+   }
+}
+
+div#container {
+   height: 250px;
+}
+
+form {
+   position: relative;
+   padding: 5px;
+   * {
+      margin: 5px 15px;
+   }
+   input {
+      padding: 5px;
+      border: 1px solid green;
+   }
+   label {
+      padding-bottom: 15px;
+      padding-top: 10px;
+      // border: 1px solid black;
+   }
+}
